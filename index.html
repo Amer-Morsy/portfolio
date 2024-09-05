@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/hero.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="header container">
+    <ul class="header__menu">
+      <li><a class="header__link" href="#about">About</a></li>
+      <li><a class="header__link" href="#featured">Work</a></li>
+      <li><a class="header__link" href="#contact">Contact</a></li>
+      <li class="header__line"></li>
+      <li>
+        <button id="theme-toggle" class="header__sun">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+          </svg>
+        </button>
+      </li>
+      <li><a class="header__resume btn" href="">Resume</a></li>
+    </ul>
+    <button class="header__bars">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd"
+          d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+          clip-rule="evenodd" />
+      </svg>
+    </button>
+  </header>
+  <div class="mobile-nav">
+    <ul class="mobile-nav__menu">
+      <li><a class="mobile-nav__link" href="#about">About</a></li>
+      <li><a class="mobile-nav__link" href="#featured">Work</a></li>
+      <li><a class="mobile-nav__link" href="#contact">Contact</a></li>
+      <li class="mobile-nav__line"></li>
+      <li>
+        <button id="theme-toggle" class="mobile-nav__sun">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+          </svg>
+        </button>
+      </li>
+      <li><a class="mobile-nav__resume btn" href="">Resume</a></li>
+    </ul>
+  </div>
+  <section class="hero container">
+    <img class="hero_img" src="/hero.png" alt="" />
+    <h2 class="hero_subtitle">Hi, I'm Amer 👏</h2>
+    <h1 class="hero_title">FULLSTACK </br> WEB DEVELOPER.</h1>
+    <p class="hero_description">
+      A passionate <strong>Fullstack</strong> web developer and <strong>Digital transformation</strong> specialized
+      in vue JS Frontend and Laravel PHP Backend.
+    </p>
+    <a class="btn hero_btn" href="">Reach out</a>
+  </section>
+  <section id="about" class="about container section">
+    <div class="about__content">
+      <h2 class="about__title">About</h2>
+      <p class="about__description">
+        👋 Hello, my name is <strong> Amer </strong> and I am an experienced <strong>Full-Stack</strong> Web Developer.
+        With over 3 years of expertise, I have a strong background in designing, developing,
+        and deploying web applications. My passion lies in creating innovative web solutions,
+        and I have a particular affinity for using JavaScript (Vue.js), PHP (Laravel),
+        and WordPress to bring these solutions to life.
+      </p>
+      <p class="about__description">
+        In my portfolio, you will find a diverse range of projects that showcase my abilities as a web developer.
+      </p>
+      <p class="about__description">
+        I am constantly expanding my knowledge and staying up-to-date with the latest advancements in web development.
+      </p>
+      <hr class="about__hr">
+      <h3 class="about__subtitle">Technologies</h3>
+      <div class="about__ul-container">
+        <ul class="about__ul">
+          <li class="about__list">Vue JS</li>
+          <li class="about__list">Laravel</li>
+          <li class="about__list">WordPress</li>
+        </ul>
+        <ul class="about__ul">
+          <li class="about__list">JavaScript</li>
+          <li class="about__list">PHP</li>
+          <li class="about__list">SQL</li>
+        </ul>
+      </div>
+    </div>
+    <div class="about__img-wrapper">
+      <img class="about__img img-focus img-rounded" src="/about.jpg" alt="">
+    </div>
+  </section>
+  <section id="featured" class="featured container section">
+    <h3 class="featured__subtitle">Featured Project</h3>
+    <div class="featured__wrapper">
+      <h2 class="featured__title">MAGIC SORTER</h2>
+      <a class="featured__link" href="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.757a3.75 3.75 0 0 0 0-5.304Zm-7.389 4.267a.75.75 0 0 1 1-.353 5.25 5.25 0 0 1 1.449 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.757a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.354-1Z"
+            clip-rule="evenodd" />
+        </svg>
+      </a>
+    </div>
+    <p class="featured__description">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta assumenda mollitia quam! Maxime illo optio
+      architecto nulla aliquam repellat ipsum harum? Voluptates hic consectetur, assumenda vitae distinctio
+      architecto nulla aliquam repellat ipsum harum? Voluptates hic consectetur, assumenda vitae distinctio
+      voluptatibus quas corporis!
+    </p>
+    <div class="featured__info-container">
+      <div>
+        <h3 class="featured__lable">
+          <ul class="featured__tech-stack">
+            <li class="featured__info">.Net/C#</li>
+            <li class="featured__info">SQL</li>
+            <li class="featured__info">React</li>
+            <li class="featured__info">Vue</li>
+            <li class="featured__info">No-SQL</li>
+            <li class="featured__info">DevOps</li>
+            <li class="featured__info">Docker</li>
+          </ul>
+        </h3>
+      </div>
+      <div>
+        <h3 class="featured__lable">Project Type</h3>
+        <p class="featured__info">Fullstack</p>
+      </div>
+      <div>
+        <h3 class="featured__lable">Timeline</h3>
+        <p class="featured__info">April 2010 - Present</p>
+      </div>
+    </div>
+    <div class="featured__img-container">
+      <div class="featured__img-wrapper">
+        <img class="img-focus img-rounded" src="/featured1.jpg" alt="">
+      </div>
+      <div class="featured__img-wrapper">
+        <img class="img-focus img-rounded" src="/featured2.jpg" alt="">
+      </div>
+      <div class="featured__img-wrapper">
+        <img class="img-focus img-rounded" src="/featured3.jpg" alt="">
+      </div>
+      <div class="featured__img-wrapper">
+        <img class="img-focus img-rounded" src="/featured4.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="work container section">
+    <h2 class="work__title">projects</h2>
+    <p class="work__description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reiciendis quos, sed quasi doloribus voluptatem? Ut,
+      saepe, officiis eos dolore deserunt porro doloremque corporis quaerat quasi sunt iure omnis iste.
+    </p>
+    <div class="work__container">
+      <h3 class="work__project-title">Project1</h3>
+      <div class="work__image1"><img class="img-focus" src="/project1.jpg" alt=""></div>
+      <div class="work__content1">
+        <h3 class="work__project-subtitle">Project1</h3>
+        <p class="work__project-description1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!</p>
+        <p class="work__project-description2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!quae, totam voluptatibus eos quisquam dolore explicabo iusto!
+        </p>
+        <a href="#" class="btn work__project-btn">Website</a>
+      </div>
+      <h3 class="work__project-title">Project2</h3>
+      <div class="work__image2"><img class="img-focus" src="/project2.jpg" alt=""></div>
+      <div class="work__content2">
+        <h3 class="work__project-subtitle">Project2</h3>
+        <p class="work__project-description1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!</p>
+        <p class="work__project-description2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!quae, totam voluptatibus eos quisquam dolore explicabo iusto!
+        </p>
+        <a href="#" class="btn work__project-btn">Website</a>
+
+      </div>
+      <h3 class="work__project-title">Project3</h3>
+      <div class="work__image3"><img class="img-focus" src="/project3.jpg" alt=""></div>
+      <div class="work__content3">
+        <h3 class="work__project-subtitle">Project3</h3>
+        <p class="work__project-description1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!</p>
+        <p class="work__project-description2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!quae, totam voluptatibus eos quisquam dolore explicabo iusto!
+        </p>
+        <a href="#" class="btn work__project-btn">Website</a>
+
+      </div>
+      <h3 class="work__project-title">Project4</h3>
+      <div class="work__image4"><img class="img-focus" src="/project4.jpg" alt=""></div>
+      <div class="work__content4">
+        <h3 class="work__project-subtitle">Project4</h3>
+        <p class="work__project-description1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!</p>
+        <p class="work__project-description2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!quae, totam voluptatibus eos quisquam dolore explicabo iusto!
+        </p>
+        <a href="#" class="btn work__project-btn">Website</a>
+
+      </div>
+      <h3 class="work__project-title">Project5</h3>
+      <div class="work__image5"><img class="img-focus" src="/project5.jpg" alt=""></div>
+      <div class="work__content5">
+        <h3 class="work__project-subtitle">Project5</h3>
+        <p class="work__project-description1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!</p>
+        <p class="work__project-description2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!quae, totam voluptatibus eos quisquam dolore explicabo iusto!
+        </p>
+        <a href="#" class="btn work__project-btn">Website</a>
+
+      </div>
+      <h3 class="work__project-title">Project6</h3>
+      <div class="work__image6"><img class="img-focus" src="/project6.jpg" alt=""></div>
+      <div class="work__content6">
+        <h3 class="work__project-subtitle">Project6</h3>
+        <p class="work__project-description1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!</p>
+        <p class="work__project-description2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          recusandae magni non iste, asperiores eum a numquam aliquid eaque, ea pariatur inventore quae, totam
+          voluptatibus eos quisquam dolore explicabo iusto!quae, totam voluptatibus eos quisquam dolore explicabo iusto!
+        </p>
+        <a href="#" class="btn work__project-btn">Website</a>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact container section">
+    <h2 class="contact__title">Get In Contact</h2>
+    <p class="contact__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis vitae, velit quia
+      autem, esse a quaerat dolorum aperiam, cum excepturi dolore repellendus eum? Nobis vero voluptatibus laborum
+      blanditiis est dicta?</p>
+    <a href="#" class="btn contact__btn">Reach out</a>
+  </section>
+  <footer class="footer container section">
+    <h3 class="footer__title">~~Amer Morsy~~</h3>
+  </footer>
+  <script type="module" src="src/main.js"></script>
+</body>
+
+</html>
